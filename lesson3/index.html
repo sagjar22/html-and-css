@@ -5,10 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Заннятя 3 Основи стилізації (CSS)</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <!-- <link rel="stylesheet" href="./style/style.css"> -->
+    <style>
+         /* li::marker {
+            color: brown;
+            content: "🐱‍🐉"; 
+        }  */
+
+        p::before {
+            content: '😎'
+        }
+
+        p::after {
+            content: '🤣';
+        }
+
+        ul {
+            list-style-type: circle;
+            list-style-image: url("icons/checklist.png");
+            list-style-position: inside;
+        }
+
+        ol {
+            list-style-type: upper-latin;
+        }
+
+        .nested-list {
+            list-style-type: disc;
+        }
+
+        .nested-list ul {
+            list-style-type: square;
+            color: rgb(67, 42, 52);
+        }
+
+        div {
+            background-color: blueviolet;
+            /* padding-left: 4px;
+            padding-bottom: 8px;
+            padding-right: 25px;
+            padding-top: 50px; */
+            /* top -> right -> bottom -> left */
+            /* padding: 10px 30px 5px; */
+            /* top and bottom -> left and right */
+            /* padding: 20px 35px; */
+            margin: 30px 10px 45px;
+            padding: 40px;
+        }
+    </style>
 </head>
 
 <body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cumque omnis laboriosam illum doloremque
+        consequatur, nesciunt soluta labore quibusdam? Suscipit doloremque repellendus odio natus ad, labore harum quos
+        enim dolorem. Ad perspiciatis, minima quos quasi ullam ut quas corrupti sunt, aliquam quia ipsam quis cumque
+        quae voluptas veritatis pariatur minus.</div>
+    <ul class="nested-list">
+        <li>
+            <ul>
+                <li>ez</li>
+                <li>22</li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScrit</li>
+    </ul>
+    <ol>
+        <li>Відкрити редактор</li>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Мова опису сторінки</dd>
+        <dt>IDE</dt>
+        <dd>Інтегроване серевоище</dd>
+    </dl>
+
     <div>
         &lt; &gt;
         &amp;
