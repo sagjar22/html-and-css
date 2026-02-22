@@ -1,0 +1,77 @@
+
+        /*
+        селектор {property-name: property-value;
+        property-name: property-value;
+        etc
+        }
+        */
+
+@import url();
+        p {
+            background-color: aquamarine;
+            font-size: large;
+        }
+
+        h1 {
+            background-color: blueviolet;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: xx-large;
+        }
+
+        h2,
+        h3,
+        h4 {
+            /* груповий селектор */
+            background-color: blanchedalmond;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: small;
+        }
+
+        * {
+            /*Універсальний селектор скидання відступів та прочого за замовчуванням*/
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+        }
+
+        #header-styled {
+            text-align: center;
+            background-color: blue;
+            font-family: cursive;
+            font-size: xx-small;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+
+        .color-blue {
+            color: blue;
+        }
+
+        .font-styled {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+            font-weight: 900;
+            font-style: italic;
+            font-variant: small-caps;
+            line-height: 16px;
+            /*{font: [style] [variant] [weight] [size]/[line.height] [family]} */
+            font: italic small-caps bold 1.3em/14px 'Times New Roman';
+            word-spacing: 1rem;
+            letter-spacing: 0.5rem;
+            text-transform: capitalize;
+            text-indent: 2em;
+            /*{text-decoration: [underline] [solid] [10px] [color]}*/
+            text-decoration: underline solid 10px black;
+            text-align: center;
+            /* color: colar      */
+            /*color: #fff */
+            /*color: rgb(124, 100, 200)*/
+            /*color: rgba(124,100,200, 0.5);*/
+            /* color: hsl(270, 78%, 58%); */
+
+            /* для нахождения цветов Adobe Color */
+        }
