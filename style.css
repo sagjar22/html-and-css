@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+.img-container {
+    border: 3px chocolate solid;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    transition: all 0.9s ease 0s;
+}
+
+img:hover {
+    width: 60%;
+    box-shadow: 5px 5px 10px black;
+    /* transform: rotateX(120deg); */
+    /* transform: rotateY(120deg); */
+    transform: rotateZ(120deg);
+}
+
+a:link {
+    color:crimson;
+}
+
+a:visited {
+    color: rgb(4,135,135);
+    /* text-decoration: dotted line-through black 20px;  */
+}
+
+a:focus {
+    color: chocolate;
+}
+
+a:active {
+    color: thistle;
+}
+
+.button:hover {
+    background-color: violet;
+    border-color: blue;
+
+}
+
+.button {
+    width: 30%;
+    padding: 10px 0;
+    margin: 50px auto;
+    text-align: center;
+    border: solid red 1px;
+    border-radius: 10px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition-delay: 0s;
+    /* transition: all 0.8s ease 0s; */
+}
+
+.button a {
+    background-color: transparent;
+    color: black;
+}
+
+.transform-example {
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    border: solid white 5px;    
+}
+
+.square {
+    margin: 15px auto;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    transition: all 0.8s ease 0s;
+}
+
+.translate-example:hover {
+    transform: translate(25px,35px);
+}
+
+.scale-example:hover {
+    transform: scale(2,0.5);
+}
+
+.rotate2d:hover {
+    transform: rotate(120deg);
+}
+
+.rotate3dx:hover {
+    transform: rotateX(60deg);
+}
+
+.rotate3dY:hover {
+    transform: rotateY(60deg);
+}
+
+.rotate3dZ:hover {
+    transform: rotateZ(60deg);
+}
+
+.skew:hover {
+    transform: skew(25deg, 35deg);
+}
+
+.rotate2d {
+    transform-origin: 100% 100%;
+}
+
+.animations {
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    box-sizing: border-box;
+    border: black solid 5px;
+    padding: 0;
+    margin: 5px;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    margin: 10px 10px;
+    animation: circle-anim;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes circle-anim {
+    0% {
+        transform:translate(0,0);
+        background-color: blue;
+    }
+    25% {
+        transform:translate(400px,0);
+        background-color: chocolate;
+    }
+    50% {
+        transform:translate(400px,400px);
+        background-color: turquoise;
+    }
+    75% {
+        transform:translate(0,400);
+        background-color: crimson;
+    }
+    100% {
+        transform:translate(0,0);
+        background-color: darkolivegreen;
+    }
+}
