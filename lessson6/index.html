@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заннятя 6 - Таблиці</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shrotcut icon" href="../shared_resources/favicon.jpg">
+</head>
+
+<body>
+    <table>
+        <caption>Користувачі</caption>
+        <colgroup>
+            <col class="avatar-column">
+            <col>
+            <col>
+        </colgroup>
+
+        <thead>
+        <tr>
+            <th>Аватар</th>
+            <th>Імя</th>
+            <th>E-mail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img src="../shared_resources/blue_emoji.png" alt="avatar generic" class="avatar"></td>
+            <td>Джон Доу</td>
+            <td><a href="mailto:djon.dou@gmail.com">djon.dou@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td><img src="../shared_resources/blue_emoji.png" alt="avatar generic" class="avatar"></td>
+            <td>Джон Доу</td>
+            <td><a href="mailto:djon.dou@gmail.com">djon.dou@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td><img src="../shared_resources/blue_emoji.png" alt="avatar generic" class="avatar"></td>
+            <td>Джон Доу</td>
+            <td><a href="mailto:djon.dou@gmail.com">djon.dou@gmail.com</a></td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Це футер таблиці</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table>
+        <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+        </tr>
+        <tr>
+            <td>jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>jill</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Phone</td>
+            <td>555-1234</td>
+        </tr>
+        <tr>
+            <td>555-5678</td>
+        </tr>
+    </table>
+
+    <table class="hide-empty">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem, ipsum.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quia.</td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

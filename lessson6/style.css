@@ -1,0 +1,51 @@
+.avatar {
+    width:20%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+.avatar-column {
+    text-align: center;
+    background-color: gray;
+    border: 2px solid black;
+    width: 30%;
+}
+
+table {
+    margin: 10px;
+}
+
+.hide-empty {
+    border: 0;
+    empty-cells: hide;
+    border-collapse: separate;
+}
+
+caption {
+    border: 1px solid black;
+    border-bottom: 0;
+    background-color: rgb(116,155,183);
+}
+
+thead {
+    background-color: cornflowerblue;
+}
+
+tbody {
+    font-family:Arial, Helvetica, sans-serif;
+}
+tfoot {
+    background-color: aliceblue;
+    font-size:0.5em;
+}
