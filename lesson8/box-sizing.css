@@ -1,0 +1,12 @@
+.demo {
+    width: 200px;
+    height: 60px;
+    border: solid black 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.border-box {
+    box-sizing: border-box;
+}

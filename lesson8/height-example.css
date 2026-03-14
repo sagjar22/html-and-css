@@ -1,0 +1,11 @@
+.fixed-height {
+    height: 200px;
+    width: 700px;
+    /* overflow: visible;
+    overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: scroll; */
+    /* overflow-y: auto;
+    overflow-x: visible; */
+}
+

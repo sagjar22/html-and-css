@@ -1,0 +1,13 @@
+body {
+    background-color: cadetblue;
+}
+
+.main {
+    width: calc(100% - 40px);
+    min-width: 700px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(61, 61, 255);
+    color: white;
+}
