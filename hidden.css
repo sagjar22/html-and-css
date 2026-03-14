@@ -1,0 +1,24 @@
+.hover-elem {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background: cadetblue;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.hidden-elem {
+    display:none;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin: auto;
+    top: 60px;
+    padding-top: 25px;
+}
+
+.hover-elem:hover .hidden-elem {
+    display:block;
+}
