@@ -1,90 +1,43 @@
-.p1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+.menu {
+    width: 900px;
+    margin: 40px auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.p1::first-line {
-    font-family: "Segoe script", cursive;
-    color: darkorchid;
-    font-size: 2em;
-}
-
-.p2 {
-    font-size: 1.5em;
-
-}
-
-.p2::first-letter {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkred;
-    border: 1px dashed darkred;
-    padding: 5px;
-    font-size: 3em;
-}
-
-.p3::selection {
-    background-color: darkorchid;
-    color: white;
-}
-
-p:last-child {
-    background-color: cadetblue;
-    font-family: "Sehgoe script", cursive;
-    padding: 1.3em;
-    color: blueviolet;
-}
-
-p:first-child {
-    background-color: burlywood;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkred;
-    padding: 2em;
-}
-
-p:nth-child(even) {
-    background-color: brown;
-    color: darkblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 1.5em;
-}
-
-table,
 th,
 td {
-    border: 2px solid black;
-    border-collapse: collapse;
-    padding: 1.05em;
+    border: 1px solid #dcdcdc;
+    padding: 12px;
 }
 
-
-tr:nth-child(even) {
-    background-color: #c7c7c7;
+tr:first-child,
+th {
+    background-color: #3f6fb3;
+    color: white;
+    font-weight: 600;
+    padding: 20px 10px;
 }
 
-th:nth-last-child(odd),
-td:nth-last-child(odd) {
-    background-color: #c7c7c7;
+td:first-child {
+    text-align: left;
+    background-color: #e6e6e6;
+    font-weight: 500;
+    margin: auto;
 }
 
-p:only-child {
-    background-color: darkseagreen;
-    color: blueviolet;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 1.4em;
+tr:nth-child(even) td {
+    background-color: #f4f4f4;
 }
 
-p:nth-of-type(2n) {
-    background-color: violet;
-    color:turquoise;
+tr:last-child td {
+    background-color: #efefef;
 }
 
-.menu-item:not(:last-child) {
-    border-bottom: 1px solid black;
-    margin-bottom: 10px;
-}
-
-.news:target {
-    display:block;
-    background-color: bisque;
-    border: 1px dotted moccasin;
+.button {
+    padding: 6px 18px;
+    border: 1px solid #bdbdbd;
+    background-color: #f3f3f3;
+    cursor: pointer;
 }
