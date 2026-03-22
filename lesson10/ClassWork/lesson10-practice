@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Lesson 10 - Practice</title>
+</head>
+
+<body>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial;
+background:#eee;
+}
+
+.wrapper{
+display:flex;
+background:#444;
+padding:20px;
+max-width:1000px;
+margin:auto;
+}
+
+
+
+.tabs{
+width:120px;
+display:flex;
+flex-direction:column;
+}
+
+.tab{
+background:#777;
+color:white;
+padding:15px;
+margin-bottom:5px;
+cursor:pointer;
+}
+
+.tab:hover{
+background:#555;
+}
+
+.tab:first-child{
+background:#555;
+}
+
+
+.content{
+display:flex;
+gap:20px;
+padding-left:20px;
+flex-wrap:wrap;
+}
+
+.block{
+width:350px;
+color:white;
+}
+
+.block img{
+width:100%;
+margin-bottom:10px;
+}
+
+.block h3{
+margin-bottom:10px;
+}
+
+</style>
+
+<div class="wrapper">
+
+<div class="tabs">
+<div class="tab">Tab 1</div>
+<div class="tab">Tab 2</div>
+<div class="tab">Tab 3</div>
+</div>
+
+<div class="content">
+
+<div class="block">
+<img src="https://via.placeholder.com/350x220">
+<h3>Header 1</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ultrices lorem id consectetur tempor.</p>
+</div>
+
+<div class="block">
+<img src="https://via.placeholder.com/350x220">
+<h3>Header 2</h3>
+<p>Quisque id lectus et ipsum bibendum mattis vitae sagittis magna.</p>
+</div>
+
+<div class="block">
+<img src="https://via.placeholder.com/350x220">
+<h3>Header 3</h3>
+<p>Mauris nec purus nec ligula euismod convallis.</p>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
