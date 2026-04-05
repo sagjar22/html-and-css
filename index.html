@@ -4,35 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lessson 12 - Grid</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./shared_resources/favicon/html_favicon.png">
+    <title>lesson 15</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <div>Home</div>
-            <div>Search</div>
-            <div>log out</div>
-        </div>
-        <div class="menu">Menu</div>
-        <div class="main">Main</div>
-        <div class="right">Right</div>
-        <div class="footer">Footer</div>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h2>My first Bootstrap Page</h2>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+    <div class="col bg-primary px-2 m-3 border border-danger rounded">
+        <img src="../shared_resources/cats gallery/cat_box_256.png" alt="img" class="img-fluid">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div class="col bg-danger text-warning px-2 m-3 rounded-circle">
+        <img src="../shared_resources/cats gallery/cat_box_256.png" alt="img" class="img-thumbnail">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div class="col bg-dark text-light px-2 m-3 rounded-pill">
+        <img src="../shared_resources/cats gallery/cat_box_256.png" alt="img" class="w-50 float-right">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div class="col bg-info text-white px-2 m-3">
+        <img src="../shared_resources/cats gallery/cat_box_256.png" alt="img" class="w-50 float-left">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div class="col bg-success px-2 m-3 shadow-lg">
+        <img src="../shared_resources/cats gallery/cat_box_256.png" alt="img" class="w-50 mx-auto d-block">
     </div>
 
-    <!-- <div class="grid-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
+    <!-- <div class="container mt-4 ">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-5">
+            <div class="col bg-primary text-secondary px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, exercitationem!</div>
+            <div class="col bg-danger text-warning px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, exercitationem!</div>
+            <div class="col bg-dark text-light px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, exercitationem!</div>
+            <div class="col bg-info text-white px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, exercitationem!</div>
+            <div class="col bg-success text-transperent px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, exercitationem!</div>
+        </div>
     </div> -->
 
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="col-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="col-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="col-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur.</div>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-md">Lorem ipsum dolor sit amet.</div>
+            <div class="col-md">Lorem ipsum dolor sit amet.</div>
+            <div class="col-md">Lorem ipsum dolor sit amet.</div>
+            <div class="col-md">Lorem ipsum dolor sit amet.</div>
+            <div class="col-md">Lorem ipsum dolor sit amet.</div>
+        </div>
+    </div> -->
+    <!-- <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Column 1</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>Column 2</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>Column 3</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>Column 4</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </div> -->
 </body>
 
 </html>
